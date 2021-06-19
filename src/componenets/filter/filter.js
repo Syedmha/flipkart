@@ -8,7 +8,7 @@ function Filter() {
             <hr></hr>
         </div>
         <div className='sec-2'>
-            <p>Brands</p>
+            <p className='brands'>Brands</p>
             <hr></hr>
         </div>
         <div className='sec-3'>

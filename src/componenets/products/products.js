@@ -1,22 +1,53 @@
 import './../products/products.css';
 import Data from '../../data.json';
+import { useState, useEffect } from 'react';
 
 function Products() {
+
+  const [ List , setList ] = useState(Data);
+
+
+   const onChangeValue = (e) =>{
+     const copy = [...Data]
+     const sorteddata = copy.sort((a,b)=>{ 
+       if(e.target.value=='increasing') 
+       return a.price - b.price
+       else if(e.target.value=='decreasing')
+       return b.price - a.price
+      });
+      setList(sorteddata);
+   }
+
+
+
+
     return (
       <div className="products-container">
-        <h1>Product</h1>
+        <div className='sort'  >
+      <h3>Sort By</h3>
+      <input type="radio" name='sort' value='increasing' onChange={onChangeValue}/>
+      <label>Price: Low-High</label>
+      <input type="radio" name='sort' value='decreasing' onChange={onChangeValue} />
+      <label>Price: High-Low</label>
+
+        </div>
         <div className="grid-container">
             {
-              Data.map(post => {
+              List.map(post => {
                 return (
-                  <div key={ post.id } className="grid-item"> 
-                  
-                    <h2>{ post.image }</h2>
-                    <p> { post.price }</p>
+                  <div className='card' key={post.id}>
+                  <div key={ post.id }> 
+                  <img className='img' src= { post.image } />
+                    <p className='brand'><strong>{ post.brand }</strong></p>
+                    <p className='title'>{ post.title }</p>
+                    <p className='price'> Rs. { post.price }</p>
+                    <p className='size'>{ post.size }</p>
+                  </div>
                   </div>
                 )
               })
             }
+            
 </div>
       </div>
     );

@@ -13,4 +13,10 @@
  margin-right: 9px;
  margin-top: 9px;
  width: 20%;
+ height: fit-content;
+}
+
+.brands {
+    text-align: left;
+    margin-left: 15px;
 }
