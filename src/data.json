@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "images/men-1.jpeg",
+        "brand": "soo",
+        "title": "shirt",
+        "price": 200,
+        "size": "S"
+    },
+    {
+        "id": 2,
+        "image": "images/men-2.jpeg",
+        "brand": "soo",
+        "title": "shirt",
+        "price": 200,
+        "size": "S"
+    },
+    {
+        "id": 3,
+        "image": "images/men-3.jpeg",
+        "brand": "soo",
+        "title": "shirt",
+        "price": 200,
+        "size": "S"
+    },
+    {
+        "id": 4,
+        "image": "images/women-1.jpeg",
+        "brand": "soo",
+        "title": "shirt",
+        "price": 200,
+        "size": "S"
+    },
+    {
+        "id": 5,
+        "image": "images/women-2.jpeg",
+        "brand": "soo",
+        "title": "shirt",
+        "price": 200,
+        "size": "S"
+    },
+    {
+        "id": 6,
+        "image": "images/women-3.jpeg",
+        "brand": "soo",
+        "title": "shirt",
+        "price": 200,
+        "size": "S"
+    }
+]
