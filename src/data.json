@@ -5,7 +5,9 @@
         "brand": "UCB",
         "title": "Red T-Shirt",
         "price": 250,
-        "size": "S, M, XL"
+        "size": [
+            "S, M, XL"
+        ]
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "brand": "Levis",
         "title": "White T-Shirt",
         "price": 350,
-        "size": "S, M"
+        "size": [
+            "S, M"
+        ]
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "brand": "CK",
         "title": "Graphic T-Shirt",
         "price": 450,
-        "size": "M, L"
+        "size": [
+            "M, L"
+        ]
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@
         "brand": "CK",
         "title": "Black Shirt",
         "price": 200,
-        "size": "S, XL"
+        "size": [
+            "S, XL"
+        ]
     },
     {
         "id": 5,
@@ -37,7 +45,9 @@
         "brand": "Levis",
         "title": "Black T-Shirt",
         "price": 300,
-        "size": "S, M"
+        "size": [
+            "S, M"
+        ]
     },
     {
         "id": 6,
@@ -45,6 +55,8 @@
         "brand": "UCB",
         "title": "T-Shirt",
         "price": 400,
-        "size": "S, L"
+        "size": [
+            "S, L"
+        ]
     }
 ]
