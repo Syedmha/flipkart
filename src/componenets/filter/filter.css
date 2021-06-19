@@ -1,0 +1,16 @@
+:root {
+    --background: #f1f3f6;
+    --primary: #2874f0;
+    --white: #ffffff;
+   }
+
+
+.filter-container {
+ display: flex;
+ flex-direction: column;
+ background-color: var(--white);
+ margin-left: 9px ;
+ margin-right: 9px;
+ margin-top: 9px;
+ width: 20%;
+}

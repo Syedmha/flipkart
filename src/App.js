@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Cathead from './componenets/cathead/cathead';
+import Header from './componenets/header/header';
+import Filter from './componenets/filter/filter';
+import Products from './componenets/products/products';
+import Maincontent from './componenets/maincontent/maincontent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Cathead />
+     <Maincontent />
     </div>
   );
 }

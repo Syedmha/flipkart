@@ -1,0 +1,16 @@
+:root {
+    --background: #f1f3f6;
+    --primary: #2874f0;
+    --white: #ffffff;
+   }
+
+
+
+.products-container {
+    background-color: var(--white) ;
+    display: block;
+    float: right;
+    width: 80%;
+    margin-right: 9px;
+    margin-top: 9px;
+}
